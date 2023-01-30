@@ -1,7 +1,9 @@
 <template>
     <header class="global-header">
         <div class="header-wrap">
-            Header
+            <router-link to="/">
+                <h1>Header</h1>
+            </router-link>
             <GlobalNav />
         </div>
     </header>

@@ -1,7 +1,7 @@
 <template>
     <footer class="global-footer">
         <div class="footer-wrap">
-            Footer
+            <h1>Footer</h1>
         </div>
     </footer>
 </template>
