@@ -1,13 +1,12 @@
 <template>
     <div>
         <TheHeader />
-        <main>
-            <div>
+        <main class="main">
+            <div class="main-wrap">
                 <router-view />
             </div>
             <TheFooter />
         </main>
-        
     </div>
 </template>
 
@@ -22,5 +21,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.main {
+    width: 100%;
+    .main-wrap {
+        margin: 60px auto;
+        width: 1200px;
+        padding: 0 15px;
+    }
+}
 </style>
