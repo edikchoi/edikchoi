@@ -1,4 +1,4 @@
-# tyranno
+# vue-default
 
 ## Project setup
 ```
