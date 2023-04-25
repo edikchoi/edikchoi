@@ -25,7 +25,7 @@ export default {
     width: 100%;
     .main-wrap {
         margin: 60px auto;
-        width: 1200px;
+        width: 100%;
         padding: 0 15px;
     }
 }
